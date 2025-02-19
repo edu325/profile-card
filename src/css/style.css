@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Kumbh Sans, sans-serif;
+  font-weight: 400;
+  height: 100vh;
+}
+
+.perfil {
+  background-color: #fff;
+  width: 350px;
+  height: 360px;
+  border-radius: 11px;
+}
+
+.usuario {
+  padding: 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.usuario p {
+    color: var(--cor-de-texto);
+}
+
+.usuario h2 {
+    padding: 24px;
+}
+
+img {
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+}
+
+.idade-do-usuario {
+    color: var(--cor-de-texto);
+}
+
+
+.informacoes-do-usuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 26px;
+  gap: 50px;
+}
+
+.numero-de-seguidores, .numero-de-likes, .numero-de-fotos {
+    font-size: 19px;
+    font-weight: var(--bold)
+}

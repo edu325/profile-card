@@ -1,0 +1,10 @@
+@media(max-width: 375px) {
+    .perfil {
+        width: 325px;
+        height: 373px;
+    }
+
+    .informacoes-do-usuario {
+        padding: 32px;
+    }
+}
